@@ -1,4 +1,4 @@
-# Project van je Leven Retrofit
+# Retrofit Europe Github omgeving
  Codeomgeving voor de front en backend
 
 ## Welkom bij de Retrofit Europe Github omgeving
