@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body id="top">
+<div class="sidebar">
+  <div class="inner-container">
+    <div class="logo">
+      <h1>
+        <h1>Retrofit Europe</h1>
+        <p>(Proof of concept)</p>
+      </h1>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#intro-row">Intro</a></li>
+        <li><a href="#map-row">Map</a></li>
+        <li><a href="#team-row">Team</a></li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<div class="main-content">
+  <section class="intro" id="intro-row">
+    <div class="inner-container">
+      <div class="title">
+        <h3>Intro</h3>
+      </div>
+
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, asperiores atque deserunt dicta doloribus, est illo laborum nesciunt reprehenderit similique sit vel vero voluptatem! Asperiores harum repellat repudiandae sunt suscipit.
+          <br><br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, alias asperiores aut blanditiis consequuntur corporis dignissimos, distinctio exercitationem ipsa iure laboriosam magni officiis optio quis sunt suscipit unde veniam, vitae.
+          <br><br>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dignissimos eum libero pariatur sint sit tenetur velit vitae! Itaque libero magni odio perspiciatis quam! Eligendi illo laboriosam nihil numquam quasi?
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="map" id="map-row">
+    <div id='map'></div>
+  </section>
+
+  <section class="team" id="team-row">
+    <div class="inner-container">
+      <div class="title">
+        <h3>Team</h3>
+      </div>
+
+      <div class="content">
+        <p>team</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoibWFyY2dpc2h1IiwiYSI6ImNrZm5zaGNudTBhdDkydXBjZW50MWtsMXMifQ.N5c4jsdpUd_P3vQzjpJRLQ';
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/marcgishu/ckfnt3ofp3kwr19owt1ecbz4g', // stylesheet location
+        center: [5, 52], // starting position [lng, lat]
+        zoom: 9 // starting zoom
+    });
+</script>
+
+</body>
+</html>
