@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/MarcRvB/Project_van_je_Leven_Retrofit#readme",
   "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
     "ol": "^6.4.3"
   },
   "devDependencies": {

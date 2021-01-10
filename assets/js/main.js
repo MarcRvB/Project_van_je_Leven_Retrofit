@@ -13,7 +13,7 @@ var wmsLayer = new TileLayer({
     source: new TileWMS({
          url: 'http://marcrvb.nl/geoserver/Hoogbouw_basic/wms',
          params: {
-             'LAYERS': 'BAG_Hoogbouw_V2 VVE_Adressen',
+             'LAYERS': 'Hoogbouw_basic:Pandenlaag_vrijstaand',
              'TILED': true
          },
          serverType: 'geoserver'
